@@ -1,0 +1,118 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(163, 255, 216, 1) 0%,
+    rgba(0, 125, 255, 1) 0%,
+    rgba(7, 42, 145, 1) 100%
+  );
+}
+.container img {
+  width: 200px;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+
+.container a:last-child:hover {
+  padding: 1rem;
+  background-color: teal;
+  transition: 0.5s;
+  border: none;
+  text-decoration: none;
+}
+.container a:last-child {
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.842);
+  margin-left: 1.5rem;
+}
+.container {
+  align-items: center;
+  padding-top: 2rem;
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.About {
+  padding: 3rem;
+  padding-top: 10rem;
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  align-items: left;
+  flex: 1;
+  margin-right: 5rem;
+}
+.title h1 {
+  color: white;
+  font-size: 44px;
+}
+.title p {
+  color: rgb(206, 202, 202);
+  font-size: 16px;
+  padding-bottom: 2rem;
+}
+.title a {
+  background-color: teal;
+  padding: 1rem;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+.Login h2 {
+  font-size: 24px;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.Login {
+  padding: 3rem;
+  background-color: white;
+  flex: 1;
+  transition: 1s;
+}
+
+.Login:hover {
+  border-radius: 4rem;
+  transition: 2s;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.Login button {
+  width: 100%;
+  text-align: center;
+  background-color: teal;
+  padding: 1rem;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.Login button:hover {
+  background-color: rgb(23, 23, 194);
+  transition: 0.5s;
+}
+
+input:hover {
+  border: 2px solid cyan;
+}
